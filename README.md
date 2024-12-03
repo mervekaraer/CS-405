@@ -25,11 +25,11 @@ Bu proje, 3D modelleme ve görselleştirme için temel yapı taşlarını içeri
 - **Açıklama**: Specular ışık efektleri eklendi ve "Specular Light Intensity" slider ile kontrol edilebilir şekilde tasarlandı.
 - **Gerekli Düzenlemeler**:
   - **Specular ışık hesaplamaları** yeniden kontrol edilmeli.
-  - **Fragment shader (meshFS)** için `viewPos` değişkeninin doğru şekilde atanıp atanmadığı incelenmeli.
+  - **Fragment shader (meshFS)** incelenmeli
 
 ### Görev 4: Çoklu Texture Desteği (Bonus 30 puan)
-- **Durum**: Başlanmadı.
-- **Açıklama**: Birden fazla texture'nin birleştirilmesi ve arayüzde toggle seçeneği eklenmesi planlanıyor.
+- **Durum**: Denendi ama başarısız oldu. Diğer taskleri bozduğu için bazı geliştirmeler silindi
+- **Açıklama**: Birden fazla texture'nin birleştirilmesi ve arayüzde toggle seçeneği eklenmesi planlanıyordu.
 
 ## Kullanım
 1. **project2.html** dosyasını bir tarayıcıda açın.
@@ -37,6 +37,6 @@ Bu proje, 3D modelleme ve görselleştirme için temel yapı taşlarını içeri
 3. Aydınlatma ve diğer ayarları slider ve ok tuşları ile düzenleyin.
 
 ## Bilinen Sorunlar
-- Görev 3'te specular aydınlatma çalışmıyor. Fragment shader'da gerekli düzeltmeler yapılmalı.
+- Görev 4te iki tane texture eklenemedi
 
 
